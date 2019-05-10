@@ -9,6 +9,7 @@ pub fn build(b: *Builder) void {
 
     // TODO: call pkg-build
     const to_link = [][]const u8{
+        "c",
         "gtk-3",
         "gdk-3",
         "pangocairo-1.0",
